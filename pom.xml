@@ -8,11 +8,19 @@
   <url>http://maven.apache.org</url>
 
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/net.sf.jacob-project/jacob -->
-<dependency>
-    <groupId>net.sf.jacob-project</groupId>
-    <artifactId>jacob</artifactId>
-    <version>1.14.3</version>
-</dependency>
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.6.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/net.sf.jacob-project/jacob -->
+    <dependency>
+      <groupId>net.sf.jacob-project</groupId>
+      <artifactId>jacob</artifactId>
+      <version>1.14.3</version>
+    </dependency>
   </dependencies>
 </project>

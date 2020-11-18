@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.timothybreitenfeldt</groupId>
+  <artifactId>java-screenreader-output</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Archetype - java-screenreader-output</name>
+  <url>http://maven.apache.org</url>
+
+  <dependencies>
+  <!-- https://mvnrepository.com/artifact/net.sf.jacob-project/jacob -->
+<dependency>
+    <groupId>net.sf.jacob-project</groupId>
+    <artifactId>jacob</artifactId>
+    <version>1.14.3</version>
+</dependency>
+  </dependencies>
+</project>
